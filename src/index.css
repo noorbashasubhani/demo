@@ -1,0 +1,57 @@
+.menu{
+
+    background-color: gray;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    display:flex;
+    margin-left:20px;
+}
+.menu ul{
+    display:flex;
+    gap:50px;
+    justify-content:right;
+    
+}
+.menulist{
+    display:flex;
+    justify-content: right;
+}
+.maindiv li{
+font-size:16px;
+list-style: none;
+}
+.maindiv li:hover{
+color:rgb(157, 157, 197);
+cursor:pointer;
+background-color:lightwhite;
+}
+.maindivsdt{
+    display:flex;
+    flex-direction:column;
+    align-content: space-around;
+    justify-content:space-around;
+}
+.details{
+    width:50%;
+    height:150px;
+    
+    color:gray;
+    background-color:white;
+}
+
+hr {
+    border: 1px solid #000; /* Change color and width as needed */
+    margin: 20px 0; /* Adjust margins */
+  }
+  button{
+    color:gray;
+    padding:5px;
+  }
+  address{
+    margin-top:50px;
+  }

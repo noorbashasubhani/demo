@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(195, 195, 233);
+    
+   
+}
+.mainmenu{
+    
+    display:flex;
+    
+    background-color:gray;
+    padding:10px;
+}
+
+.leftmenu{
+    width:20%;
+    padding:8px;
+    color:rgb(245, 245, 248);
+    font-size:18px;
+    cursor:pointer;
+    font-weight: 600px;
+}
+.rightmenu{
+    width:80%;
+    display:block;
+    padding:10px;
+}
+.rightmenu ul{
+    display:flex;
+    gap:80px;
+    justify-content: flex-end;
+    color:white;
+    padding:0px 10px;
+    cursor:pointer;
+    list-style: none;
+}
+
+.rightmenu ul li:hover{
+    
+    display:block;
+    
+    border:10px;
+    padding:0px;
+    text-decoration: underline;
+    transition-delay: 2s;
+}
+.mainbody{
+     width:100%;
+     height:250px;
+     margin-top:50px;
+}
+
+@body {
+    background-color: tan;
+    color: black;
+  }
+  
+  /* On screens that are 992px wide or less, the background color is blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
